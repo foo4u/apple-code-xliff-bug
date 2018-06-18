@@ -12,7 +12,6 @@
 		D2E8169F20D82133006BFA3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E8169D20D82133006BFA3C /* Main.storyboard */; };
 		D2E816A120D82135006BFA3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2E816A020D82135006BFA3C /* Assets.xcassets */; };
 		D2E816A420D82135006BFA3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E816A220D82135006BFA3C /* LaunchScreen.storyboard */; };
-		D2E816B420D82740006BFA3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2E816B220D82740006BFA3C /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		D2E816A520D82135006BFA3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2E816AD20D822D4006BFA3C /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
 		D2E816AE20D822D4006BFA3C /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		D2E816B320D82740006BFA3C /* (null) */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "(null)"; path = "(null).lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +62,6 @@
 				D2E816A020D82135006BFA3C /* Assets.xcassets */,
 				D2E816A220D82135006BFA3C /* LaunchScreen.storyboard */,
 				D2E816A520D82135006BFA3C /* Info.plist */,
-				D2E816B220D82740006BFA3C /* InfoPlist.strings */,
 			);
 			path = AppleBug;
 			sourceTree = "<group>";
@@ -129,7 +126,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2E816A420D82135006BFA3C /* LaunchScreen.storyboard in Resources */,
-				D2E816B420D82740006BFA3C /* InfoPlist.strings in Resources */,
 				D2E816A120D82135006BFA3C /* Assets.xcassets in Resources */,
 				D2E8169F20D82133006BFA3C /* Main.storyboard in Resources */,
 			);
@@ -166,14 +162,6 @@
 				D2E816AE20D822D4006BFA3C /* es */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		D2E816B220D82740006BFA3C /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D2E816B320D82740006BFA3C /* (null) */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
