@@ -1,0 +1,3 @@
+/* string with quote */
+"There is a \" in my string" = "hay una " en mi cadena";
+

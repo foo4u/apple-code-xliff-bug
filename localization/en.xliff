@@ -26,4 +26,15 @@
       </trans-unit>
     </body>
   </file>
+  <file original="AppleBug/en.lproj/Localizable.strings" datatype="plaintext" source-language="en">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+    </header>
+    <body>
+      <trans-unit id="There is a \&quot; in my string">
+        <source>There is a \" in my string</source>
+        <note>string with quote</note>
+      </trans-unit>
+    </body>
+  </file>
 </xliff>

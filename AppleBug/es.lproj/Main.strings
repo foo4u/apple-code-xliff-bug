@@ -2,57 +2,5 @@
 "1qK-RF-kZY.normalTitle" = "De acuerdo";
 
 /* Class = "UILabel"; text = "<html><body>hello"; ObjectID = "i0Y-Jy-l5w"; */
-"i0Y-Jy-l5w.text" = "{
-    children =     (
-                {
-            attributes =             (
-                                {
-                    content = 3;
-                    name = pos;
-                    type = attribute;
-                }
-            );
-            children =             (
-                                {
-                    content = "<html>";
-                    name = text;
-                    type = text;
-                }
-            );
-            href = "urn:oasis:names:tc:xliff:document:1.2";
-            name = it;
-            prefix = "";
-            type = element;
-        },
-                {
-            attributes =             (
-                                {
-                    content = 6;
-                    name = pos;
-                    type = attribute;
-                }
-            );
-            children =             (
-                                {
-                    content = "<body>";
-                    name = text;
-                    type = text;
-                }
-            );
-            href = "urn:oasis:names:tc:xliff:document:1.2";
-            name = it;
-            prefix = "";
-            type = element;
-        },
-                {
-            content = hola;
-            name = text;
-            type = text;
-        }
-    );
-    href = "urn:oasis:names:tc:xliff:document:1.2";
-    name = target;
-    prefix = "";
-    type = element;
-}";
+"i0Y-Jy-l5w.text" = "hola";
 

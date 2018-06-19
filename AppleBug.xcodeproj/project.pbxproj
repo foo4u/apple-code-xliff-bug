@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D2B1BF4520D95C94004A789B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2B1BF4320D95C94004A789B /* InfoPlist.strings */; };
+		D2B1BF4820D961F9004A789B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2B1BF4620D961F9004A789B /* Localizable.strings */; };
 		D2E8169A20D82133006BFA3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E8169920D82133006BFA3C /* AppDelegate.swift */; };
 		D2E8169C20D82133006BFA3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E8169B20D82133006BFA3C /* ViewController.swift */; };
 		D2E8169F20D82133006BFA3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E8169D20D82133006BFA3C /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D2B1BF4420D95C94004A789B /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D2B1BF4720D961F9004A789B /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D2E8169620D82133006BFA3C /* AppleBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2E8169920D82133006BFA3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2E8169B20D82133006BFA3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +66,8 @@
 				D2E816A020D82135006BFA3C /* Assets.xcassets */,
 				D2E816A220D82135006BFA3C /* LaunchScreen.storyboard */,
 				D2E816A520D82135006BFA3C /* Info.plist */,
+				D2B1BF4620D961F9004A789B /* Localizable.strings */,
+				D2B1BF4320D95C94004A789B /* InfoPlist.strings */,
 			);
 			path = AppleBug;
 			sourceTree = "<group>";
@@ -108,7 +114,7 @@
 			knownRegions = (
 				en,
 				Base,
-				"(null)",
+				es,
 			);
 			mainGroup = D2E8168D20D82133006BFA3C;
 			productRefGroup = D2E8169720D82133006BFA3C /* Products */;
@@ -125,7 +131,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2B1BF4820D961F9004A789B /* Localizable.strings in Resources */,
 				D2E816A420D82135006BFA3C /* LaunchScreen.storyboard in Resources */,
+				D2B1BF4520D95C94004A789B /* InfoPlist.strings in Resources */,
 				D2E816A120D82135006BFA3C /* Assets.xcassets in Resources */,
 				D2E8169F20D82133006BFA3C /* Main.storyboard in Resources */,
 			);
@@ -146,6 +154,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		D2B1BF4320D95C94004A789B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2B1BF4420D95C94004A789B /* es */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D2B1BF4620D961F9004A789B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2B1BF4720D961F9004A789B /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		D2E8169D20D82133006BFA3C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

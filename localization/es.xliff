@@ -9,12 +9,12 @@
       </trans-unit>
       <trans-unit id="i0Y-Jy-l5w.text">
         <source>&lt;html&gt;&lt;body&gt;hello</source>
-        <target><it pos="3">&lt;html&gt;</it><it pos="6">&lt;body&gt;</it>hola</target>
+        <target>hola</target>
         <note>Class = "UILabel"; text = "&lt;html&gt;&lt;body&gt;hello"; ObjectID = "i0Y-Jy-l5w";</note>
       </trans-unit>
     </body>
   </file>
-  <file original="AppleBug/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en">
+  <file original="AppleBug/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en" target-language="es">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
     </header>
@@ -22,6 +22,18 @@
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
         <note>Bundle name</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="AppleBug/en.lproj/Localizable.strings" datatype="plaintext" source-language="en" target-language="es">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+    </header>
+    <body>
+      <trans-unit id="There is a \&quot; in my string">
+        <source>There is a \" in my string</source>
+        <target>hay una &quot; en mi cadena</target>
+        <note>string with quote</note>
       </trans-unit>
     </body>
   </file>
